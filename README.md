@@ -1,0 +1,21 @@
+ - Using rotten Tomatoes API feed a database with up to 30 movies info.
+ - Create a new "Movies Autocomplete Widget" using jQuery UI widget factory that will be used to search through a list of movies from your database.
+ -  - The "Movies Autocomplete Widget" namespace should be "rottentomatoes.getMovies" so doing a $(<CSS3 Selector>).getMovies(<OPTIONS>) should init the "Movies Autocomplete Widget" on that specific selector
+ -  - The autocomplete should start displaying results after a minimum of 3 characters have been typed in the input field
+ -  - The search should be cached
+ -  - The Movie Title, Year and Ratings should be displayed for each movie in the autocomplete result list
+ -  - The autocomplete should be smart enough to display its list of results wherever there is enough room in the window viewport. i.e: If there isn’t enough room below the input field to show the list, the list should show above the input field.
+ -  
+ - Choosing a movie from the autocomplete should display the list of casts in a grid
+ -  - The grid should show the cast first name, last name and character(s)
+ -  - The grid must support pagination and should display up to 10 rows per page
+ -  - The grid must be responsive
+ -  - The grid columns must be sortable
+ -  - Each row in the grid should have an "Edit" button and "Delete" button
+ -  -  - Clicking on "Delete" should delete that cast member from the grid and the database
+ -  -  - Clicking on "Edit" should display a modal dialog which allow a user to edit the cast first name, last name and character and save that info to the database
+ -  - Clicking on a cast member on that grid should display all info regarding that cast in a modal dialog. A cast info can be acquired using NetFlix API
+ - Suggested technologies that can be used: jQuery, jQuery UI, Bootstrap, HTML5, less/Sass.
+ - Feel free to use Rails or any other MVC framework you are familiar with.
+ - All elements in the page including the widgets should be 508 compliant( AA ), Accessible following W3C standards.
+ - All elements in the page including the widgets should be Responsive
